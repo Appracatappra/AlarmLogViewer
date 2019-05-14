@@ -69,7 +69,7 @@ namespace AlarmLogViewer
 				switch(alarm.EventType)
 				{
 					case 6:
-						// MaxAlarmOut - A maximum alarm state has ended.
+						// MaxAlarmOut - A maximum alarm state has started.
 						// Close any open measurements.
 						FinalizeMeasurement(measurement, dataValue);
 
@@ -84,7 +84,7 @@ namespace AlarmLogViewer
 						channelMeasurements.Measurements.Add(measurement);
 						break;
 					case 7:
-						// MinAlarmOut - A minimum alarm state has ended.
+						// MinAlarmOut - A minimum alarm state has started.
 						// Close any open measurements.
 						FinalizeMeasurement(measurement, dataValue);
 
@@ -99,13 +99,13 @@ namespace AlarmLogViewer
 						channelMeasurements.Measurements.Add(measurement);
 						break;
 					case 8:
-						// MaxAlarmIn - A maximum alarm state has started.
+						// MaxAlarmIn - A maximum alarm state has ended.
 						measurement.ConditionEnded = alarm.Timestamp;
 						measurement.ConditionEndedValue = dataValue;
 						measurement = new AlarmMeasurement();
 						break;
 					case 9:
-						// MinAlarmIn - A minimum alarm state has started.
+						// MinAlarmIn - A minimum alarm state has ended.
 						measurement.ConditionEnded = alarm.Timestamp;
 						measurement.ConditionEndedValue = dataValue;
 						measurement = new AlarmMeasurement();
