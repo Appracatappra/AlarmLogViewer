@@ -244,7 +244,9 @@ namespace AlarmLogViewer
 						ConditionSource = measurement.ConditionSource,
 						ConditionType = measurement.ConditionType,
 						ConditionStarted = measurement.ConditionStarted,
-						ConditionEnded = existingMeasurement.ConditionStarted
+						ConditionEnded = existingMeasurement.ConditionStarted,
+						ConditionStartedValue = measurement.ConditionStartedValue,
+						ConditionEndedValue = existingMeasurement.ConditionStartedValue
 					 });
 
 					// Data after event
@@ -253,7 +255,9 @@ namespace AlarmLogViewer
 						ConditionSource = measurement.ConditionSource,
 						ConditionType = measurement.ConditionType,
 						ConditionStarted = existingMeasurement.ConditionEnded,
-						ConditionEnded = measurement.ConditionEnded
+						ConditionEnded = measurement.ConditionEnded,
+						ConditionStartedValue = existingMeasurement.ConditionEndedValue,
+						ConditionEndedValue = measurement.ConditionEndedValue
 					});
 
 					// Finished processing
@@ -270,7 +274,9 @@ namespace AlarmLogViewer
 						ConditionSource = measurement.ConditionSource,
 						ConditionType = measurement.ConditionType,
 						ConditionStarted = measurement.ConditionStarted,
-						ConditionEnded = existingMeasurement.ConditionStarted
+						ConditionEnded = existingMeasurement.ConditionStarted,
+						ConditionStartedValue = measurement.ConditionStartedValue,
+						ConditionEndedValue = existingMeasurement.ConditionStartedValue
 					});
 
 					// Finished processing
@@ -287,7 +293,9 @@ namespace AlarmLogViewer
 						ConditionSource = measurement.ConditionSource,
 						ConditionType = measurement.ConditionType,
 						ConditionStarted = measurement.ConditionStarted,
-						ConditionEnded = existingMeasurement.ConditionStarted
+						ConditionEnded = existingMeasurement.ConditionStarted,
+						ConditionStartedValue = existingMeasurement.ConditionEndedValue,
+						ConditionEndedValue = measurement.ConditionEndedValue
 					});
 
 					// Finished processing
