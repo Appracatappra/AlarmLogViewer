@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{7A6B5099-0E3F-4C65-BAFF-8719824EAF45}|Default">
+  <MonoDevelop.Ide.ItemProperties.AlarmLogViewer.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AlarmLogViewer/Views/ItemDetailPage.xaml">
+    <Files>
+      <File FileName="AlarmLogViewer/Models/AlarmMeasurement.cs" Line="1" Column="1" />
+      <File FileName="AlarmLogViewer/Models/AlarmChannelMeasurements.cs" Line="1" Column="1" />
+      <File FileName="AlarmLogViewer/Models/AlarmMeasurements.cs" Line="1" Column="1" />
+      <File FileName="AlarmLogViewer/Models/TripDataProcessor.cs" Line="29" Column="86" />
+      <File FileName="AlarmLogViewer/Views/ItemDetailPage.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AlarmLogViewer" expanded="True">
+            <Node name="AlarmLogViewer" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="ItemDetailPage.xaml" selected="True" />
+              </Node>
+            </Node>
+            <Node name="AlarmLogViewer.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AlarmLogViewer.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6554F523-A581-4C4C-9857-7B6579C21362" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
